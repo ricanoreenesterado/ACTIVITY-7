@@ -27,14 +27,14 @@ class _HomeState extends State<Home> {
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage("assets/background/card.jpg"),
+          image: AssetImage("assets/background/card3.jpg"),
           fit: BoxFit.cover,
         ),
       ),
       child: Center(
         child: RaisedButton(
           textColor: Colors.black,
-          color: Color.fromARGB(255, 3, 241, 103),
+          color: Color.fromARGB(255, 231, 40, 34),
           onPressed: () {
             setState(() {
               list.shuffle();
